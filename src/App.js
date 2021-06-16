@@ -13,7 +13,7 @@ import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css'
 
 const App = () => {
   const [showModal, setShowModal] = useState(false)
-  if (false) {
+  if (isMobile) {
     return (
       <div>
         <img src="https://picsum.photos/200/300" width={400} onClick={() => setShowModal(true)}/>
