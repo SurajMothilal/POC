@@ -18,7 +18,7 @@ const App = () => {
   if (isMobile) {
     return (
       <div>
-        <img src={small} width={400} style={{ margin: 10 }} onClick={() => setShowModal(true)}/>
+        <img src={small} width="90%" style={{ margin: 10 }} onClick={() => setShowModal(true)}/>
         <h1 style={{ marginLeft: 10 }}>This is a title</h1>
         <h2 style={{ marginLeft: 10 }}>Author</h2>
         <Modal isOpen={showModal}>
